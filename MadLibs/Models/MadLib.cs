@@ -7,6 +7,8 @@ namespace FriendLetter.Models
     private string _noun;
     private string _adverb;
     private string _adjective;
+    private string _animal;
+    private string _food;
 
     public string GetVerb()
     {
@@ -48,6 +50,22 @@ namespace FriendLetter.Models
     public void SetAdjective(string newAdjective)
     {
       _adjective = newAdjective;
+    }
+    public string GetAnimal()
+    {
+      return _animal;
+    }
+    public void SetAnimal(string newAnimal)
+    {
+      _animal = newAnimal;
+    }
+    public string GetFood()
+    {
+      return _food;
+    }
+    public void SetFood(string newFood)
+    {
+      _food = newFood;
     }
   }
 }
